@@ -63,19 +63,20 @@ font-family: 'Oxygen', sans-serif;
 
   .menu-item {
   	background-color: #d6e0f5;
-  	margin-top: 10px;
+  	display: block;
   }
 
-  .menu-item > h2 {
+  .menu-item > h3 {
   	font-size: 1.3em;
   	font-weight: bold;
   	color: #224780;
+  	padding-top: 15px;
   }
 
   .menu-item > p {
-  	display: block;
-    margin: 0 20px;
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
   }
 
 /*** End Main Page ***/
