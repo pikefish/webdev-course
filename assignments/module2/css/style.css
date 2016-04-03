@@ -10,39 +10,11 @@ body {
   font-size: 105%;
 }
 
-
 h1 {
   margin-top: 20px;
   margin-bottom: 35px;
   text-align: center;
   font-size: 1.75em;
-}
-
-h2 {
-  position: absolute;
-  border: 1px solid black; 
-  text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 1.25em;
-  float: right;
-  top: -1px;
-  right: -1px;
-}
-
-h2.opt1 {
-  background-color: #003399;
-  color: white;
-}
-
-h2.opt2 {
-  background-color: #990000;
-  color: white;
-}
-
-h2.opt3 {
-  background-color: #339933;
-  color: white;
 }
 
 .content {
@@ -57,7 +29,35 @@ h2.opt3 {
   overflow: hidden;
 }
 
-p {
+.content h2 {
+  position: absolute;
+  border: 1px solid black; 
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 1.25em;
+  float: right;
+  top: -1px;
+  right: -1px;
+}
+
+.content h2.opt1 {
+  background-color: #003399;
+  color: white;
+}
+
+.content h2.opt2 {
+  background-color: #990000;
+  color: white;
+}
+
+.content h2.opt3 {
+  background-color: #339933;
+  color: white;
+}
+
+
+.content p {
   text-align: justify;
   position: relative;
   top: 40px;
@@ -71,22 +71,20 @@ p {
   width: 100%;
 }
 
-/*** Large devices ***/
+/*** Large-size devices ***/
 @media (min-width: 992px) {
   .col-lg-4 {
     width: 33.33%;
     float: left;
   }
-
 }
 
-/*** Medium devices ***/
+/*** Medium-size devices ***/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     width: 50%;
     float: left;
   }
-
   .col-md-12 {
     width: 100%;
     float: left;
