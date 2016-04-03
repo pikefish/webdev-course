@@ -53,8 +53,8 @@ h2.opt3 {
   margin-right: 15px;
   margin-left: 15px;
   margin-bottom: 30px;
-  min-height: 200px;
-
+  min-height: 240px;
+  overflow: hidden;
 }
 
 p {
@@ -92,4 +92,3 @@ p {
     float: left;
   }
 }
-
